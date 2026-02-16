@@ -1,0 +1,139 @@
+body{
+/* background-color:rgba(255,255,255,0.8);  background:url('https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg'); */
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:rgba(124, 129, 223, 0.292);
+  /* background-color:rgba(69, 69, 104, 0.89); */
+  /* background-color: white; */
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+section{
+/*   background-color:rgba(255,255,255,0.8); */
+  margin:100px 0px 80px 0px;
+}
+
+#body{
+  #con{
+    padding:0px 15px;
+    display:flex;
+    gap:110px;
+    justify-content: center;
+/*     background-color:bisque; */
+    
+    
+    .cl{
+      div{
+        padding:4px;
+        border-style:solid;
+        box-shadow:5px 5px 0px rgba(0,0,0,0.8);
+        background-color:rgb(255, 255, 229);
+        h2{
+          margin:0px;
+/*           background-color:bisque; */
+          width:fit-content;
+          padding:4px;
+          span{
+            position: relative;
+            top:4px;
+          }
+/*           border-style:solid; */
+        }
+      }
+      h3{
+        line-height:1.5;
+        font-size: 22px;
+        span{
+          background-color: rgba(29, 59, 47, 0.155);
+          padding:4px;
+          /* border-style:dashed; */
+        }
+      }
+      h1{
+        border-style:solid;
+        padding: 4px;
+        background-color:bisque;
+        width:fit-content;
+      }
+      flex-basis:600px;
+/*       flex-shrink:0; */
+/*       background-color:orange; */
+    }
+    .il{
+      img{
+        width:100%;
+        border-style:solid;
+      }
+      flex-basis:600px;
+      b{
+        display: block;
+        width: fit-content;
+        border-style:solid;
+        font-size: 20px;
+        position: relative;
+        bottom: 41px;
+        padding: 4px;
+        background-color: antiquewhite;
+        .line{
+          position: relative;
+          top: 2px;
+          display: inline-block;
+          background-color: green;
+          width:4px;
+          height: 18px;
+          margin:0px 4px;
+        }
+        a{
+          color:black;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1200px){
+  #body{
+    #con{
+      padding: 0px;
+      flex-direction:column-reverse;
+      gap:10px;
+      .cl{
+        flex-basis:auto;
+        h1{
+          margin:0px auto;
+          font-size:26px;
+        }
+        h2{
+          font-size: 22px;
+        }
+        h3{
+          font-size:18px;
+        }
+        p{
+          padding:10px;
+        }
+        div{
+          margin:8px;
+
+        }
+      }
+      .il{
+        text-align: center;
+        img{
+          width: 95%;
+        }
+        flex-basis: auto;
+        b{
+          font-size: 16px;
+          bottom: 38px;
+          left:2.2%;
+          .line{
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+}
