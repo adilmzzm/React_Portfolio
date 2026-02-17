@@ -64,7 +64,7 @@ function BGEff(){
             parr[i].y=Math.random()*h-5;
         }
         }
-        console.log(window.requestAnimationFrame(run));
+        // console.log(window.requestAnimationFrame(run));
     }
     // run();
     window.requestAnimationFrame(run);
