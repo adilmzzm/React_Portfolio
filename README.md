@@ -24,3 +24,4 @@
 <p>✦ Images used are from <a href="https://www.pexels.com/">Pexels</a></p>
 <p>✦ Siteicon generated using <a href="https://leonardo.ai/">Leonardo ai</a></p>
 <h2>✅ See Live On <a href="https://adil-reactjs-portfolio.netlify.app/">Netlify</a></h2>
+<h2>If you liked this project then give it a star ★</h2>
